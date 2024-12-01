@@ -315,6 +315,38 @@
         "message": "Letonia",
         "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in Latvia will be used."
     },
+    "settings#egress-region#select-id": {
+        "message": "Indonesia",
+        "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in Indonesia will be used."
+    },
+    "settings#egress-region#select-nz": {
+        "message": "Nueva Zelanda",
+        "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in New Zealand will be used."
+    },
+    "settings#egress-region#select-gr": {
+        "message": "Grecia",
+        "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in Greece will be used."
+    },
+    "settings#egress-region#select-hr": {
+        "message": "Croacia",
+        "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in Croatia will be used."
+    },
+    "settings#egress-region#select-pt": {
+        "message": "Portugal",
+        "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in Portugal will be used."
+    },
+    "settings#egress-region#select-ua": {
+        "message": "Ucrania",
+        "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in Ukraine will be used."
+    },
+    "settings#egress-region#select-co": {
+        "message": "Colombia",
+        "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in Colombia will be used."
+    },
+    "settings#egress-region#select-my": {
+        "message": "Malasia",
+        "description": "One of the choices in the 'Psiphon Server Region' combo box. If selected, a Psiphon server in Malaysia will be used."
+    },
     "settings#egress-region#description": {
         "message": "Psiphon tiene servidores en muchos países y regiones diferentes. Usar un servidor Psiphon en una región cercana a su país natal generalmente proporcionará una mejor conexión a la red, pero puede que desee acceder a sitios web y servicios como si estuviera virtualmente en un país o región específica.",
         "description": "Help text in the 'Psiphon Server Region' settings section explaining what the option is and why the user may want to override the default ('best') setting value. The word 'Psiphon' must not be translated or transliterated."
@@ -856,7 +888,7 @@
         "description": "Body of modal dialog in which the user can log in to an existing account or click a link to create a new one."
     },
     "psicash#modal-login-username-field": {
-        "message": "PsiCash username",
+        "message": "Nombre de usuario de Psicash",
         "description": "Label for a username field in the PsiCash account login modal dialog."
     },
     "psicash#modal-login-password-field": {
@@ -940,7 +972,7 @@
         "description": "Body text of a modal dialog shown when a PsiCash login fails due to bad username or password."
     },
     "psicash#login#invalid-credentials-body-multiple-attempts": {
-        "message": "Would you instead like to <a class=\"js-psicash-account-signup\" href=\"#\">create an account</a> or <a class=\"js-psicash-forgot-account\" href=\"#\">recover your account</a>?",
+        "message": "¿Prefieres <a class=\"js-psicash-account-signup\" href=\"#\"> crear una cuenta</a> o <a class=\"js-psicash-forgot-account\" href=\"#\"> recuperar tu cuenta</a>?",
         "description": "Body text of a modal dialog shown when a PsiCash login fails due to bad username or password."
     },
     "psicash#login#server-error-body": {
@@ -1000,15 +1032,15 @@
         "description": "Sometimes when the Psiphon UI tries to open an external URL in the browser, it fails to open. This message indicates to the user that URL has been copied to the Windows system clipboard and is available for pasting into a browser. `<br>` may be used to split the message over two lines to ensure the alert doesn't take too much horizontal space."
     },
     "notice#psiphonui-fileerror-error-title": {
-        "message": "File Access Error",
+        "message": "Error de acceso al archivo",
         "description": "Title of modal error message shown to user when Psiphon cannot read/write/delete a file that it needs to access in order to function properly."
     },
     "notice#psiphonui-fileerror-error-body": {
-        "message": "<p>Psiphon cannot access a file it needs in order to work properly.</p>\n<p>Close the Psiphon application, delete the file listed below, and try running Psiphon again.</p>",
+        "message": "<p>Psiphon no puede acceder a un archivo que necesita para funcionar correctamente.                                                                  </p>\n<p>Cierra la aplicación de Psiphon, elimina el archivo que se indica a continuación e intenta ejecutar Psiphon nuevamente.</p>",
         "description": "Body text of modal error message shown to user when Psiphon cannot read/write/delete a file that it needs to access in order to function properly. If this occurs, the user cannot connect and must take manual action to fix it. The word 'Psiphon' must not be translated or transliterated."
     },
     "notice#psiphonui-fileerror-detail-preamble": {
-        "message": "Filename and error message:",
+        "message": "Nombre del archivo y mensaje de error:",
         "description": "Preamble text before technical details displayed in a modal error message shown to user when Psiphon cannot read/write/delete a file that it needs to access in order to function properly."
     },
     "banner#sponsored-by": {
